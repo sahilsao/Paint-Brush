@@ -1,0 +1,103 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Program Files\Advance Paint  Brush
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+APILOAD.EXE=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS.000\SYSTEM\CTLServer2.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS.000\SYSTEM\mscomctl.ocx=
+C:\WINDOWS.000\SYSTEM\Comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows.000\system\ctlserver2.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS.000\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS.000\SYSTEM\CTLServer2.dll=No
+C:\WINDOWS.000\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS.000\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS.000\SYSTEM\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\divya1\6thproject\advpb\Paint.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\divya1\divya2\6thproject\advpb\Paint.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\CTLServer2.dll=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\divya1\6thproject\advpb\Paint.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\divya1\divya2\6thproject\advpb\Paint.exe=No
+D:\divya1\6thproject\advpb\Paint.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Advance Paint Brush
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\Program Files\Advance Paint  Brush
+ProjectFolder=D:\divya1\6thproject\advpb
+ServerSideCab=
+File1=c:\Program Files\Advance Paint  Brush\setup.exe
+File2=c:\Program Files\Advance Paint  Brush\Setup.Lst
+File3=c:\Program Files\Advance Paint  Brush\Paint.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Advance Paint Brush
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Advance Paint Brush]
+Icon1=Paint.exe
+Title1=Advance Paint Brush
+StartIn1=$(AppPath)
+Key1=Icon1
